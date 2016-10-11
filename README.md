@@ -59,7 +59,7 @@ For the `User` model, you'll see a migration - which was made to create a user w
 ```
 $ rails console
 > u = User.new
-> u.age # Should not error
+> u.age = 12 # Should not error
 ```
 
 Following, try and see if you can rename the column from name to username. You'll find how to do so within the above documentation. Do a similar check to see if it worked.
